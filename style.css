@@ -1,0 +1,188 @@
+/* Menu */
+div.circle{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color:  #D1C395;
+    border-radius: 50%;
+    right: -10%;
+    top: 30%;}
+    
+div.home{
+    position:  relative;
+    width: 100% ;
+    height: 100vh;
+    overflow: hidden;
+}
+div.menu{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 95%;
+    padding: 10px;
+    align-items: center;
+    top:0
+}
+
+.logo{
+    width: 15Opx;
+    
+   
+}
+div.menu img{
+    height: 100px;
+    width: 100px;
+}
+div.menu ul{
+    display: flex;
+    gap: 20px;
+    
+
+}
+div.menu ul li{
+    list-style-type: none;
+
+}
+div.menu ul li a{
+    text-decoration: none;
+    color:  black;
+    font-size: 20px;
+
+}
+div.menu ul li a:hover{
+    color: #D1C395;
+}
+div.container{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+}
+div.text h2{
+    font-size: 45PX;
+    padding: 10px;
+
+}
+div p{
+    margin-top: 10px;
+}
+
+
+div.item-info td{
+    font-weight : bold
+}
+
+
+/* Title */
+header{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+} 
+
+header h1,body{
+    font-family: 'Dancing Script', cursive;    
+}
+
+header h1{
+    font-size: 100px;
+}
+
+/* sert a rien */
+header body{
+    font-size: 40px ;
+}  
+
+
+div.title{
+    
+    border: 1px solid black;
+    flex-direction: row;
+}
+
+
+/* BODY */
+
+body{
+    margin: 0 auto;
+    background-color:white;
+    line-height: 20px;  
+}
+
+nav.intromenu{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+nav.entrés{
+    display:flex;
+    justify-content:flex-start;
+    padding: 50px;
+    font-size: 30px;
+}
+nav.dessert{
+    display:flex;
+    justify-content:flex-start;
+    padding: 50px;
+    font-size: 30px;
+}
+
+
+img{
+    display: flex;
+    justify-items: flex-start;
+    width: 130px;
+    height: 100px;
+    padding: 40px;
+}
+nav.intromenu ul li{
+    list-style-type: none;
+}
+div.item{
+    background-color:#D1C395;
+    margin: 100px;
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    transition: 0.3s all;
+    
+}
+div.item:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+div.item:hover{
+    transition: 0.3s all;
+    box-shadow: -2px 2px 2px 1px rgb(0, 0, 0);
+
+}
+div.item-info{
+    padding: 25px;
+    font-size: 25px;
+}
+div.item-info hr{
+    margin: 10px 0 10 0;
+    opacity: 1;
+    height: 0.5px;
+    background-color:black;
+    
+}
+/* Footer */
+footer {
+	height:50px;
+	background:black;
+	color:white;
+	text-align:center;
+	margin:auto;
+}
+
+footer p {
+	padding-top: 15px;
+}
